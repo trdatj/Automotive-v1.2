@@ -1,0 +1,29 @@
+Added Component: Designator=H6(Header 2P DC 2.54)
+Added Component: Designator=H7(Header 2P DC 2.54)
+Added Component: Designator=H8(Header 2P DC 2.54)
+Added Component: Designator=H9(Header 2P DC 2.54)
+Added Component: Designator=LM1(lm2596)
+Added Component: Designator=Vin12(Header 2P DC 2.54)
+Added Pin To Net: NetName=GND Pin=H6-1
+Added Pin To Net: NetName=5V Pin=H6-2
+Added Pin To Net: NetName=GND Pin=H7-1
+Added Pin To Net: NetName=5V Pin=H7-2
+Added Pin To Net: NetName=GND Pin=H8-1
+Added Pin To Net: NetName=5V Pin=H8-2
+Added Pin To Net: NetName=GND Pin=H9-1
+Added Pin To Net: NetName=5V Pin=H9-2
+Added Pin To Net: NetName=GND Pin=LM1-3
+Added Pin To Net: NetName=5V Pin=LM1-4
+Added Pin To Net: NetName=NetLM1_1 Pin=LM1-1
+Added Pin To Net: NetName=NetLM1_1 Pin=Vin12-2
+Added Net: Name=NetLM1_1
+Added Pin To Net: NetName=NetLM1_2 Pin=LM1-2
+Added Pin To Net: NetName=NetLM1_2 Pin=Vin12-1
+Added Net: Name=NetLM1_2
+Added Member To Class: ClassName=NodeReceive Member=Component H6 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H7 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H8 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H9 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component LM1 LM2596-Adj
+Added Member To Class: ClassName=NodeReceive Member=Component Vin12 Header 2P 2.54 Duc Cong
+Added Room: Name=NodeReceive

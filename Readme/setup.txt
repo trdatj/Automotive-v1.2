@@ -1,0 +1,61 @@
+Cách làm chi tiết (Phương pháp .desktop file - Khuyên dùng)
+
+Bước 1: Đảm bảo bạn đã biên dịch (Compile) ứng dụng
+Bạn không chạy code từ IDE nữa, mà bạn sẽ chạy file thực thi (executable) đã được biên dịch. Hãy đảm bảo bạn biết file thực thi đó nằm ở đâu.
+
+Ví dụ, file của bạn tên là my_dashboard và nó nằm ở /home/pi/MyProject/my_dashboard.
+
+Bước 2: Tạo thư mục autostart (Nếu chưa có)
+Mở Terminal trên Pi và gõ lệnh này để chắc chắn thư mục autostart tồn tại:
+
+Bash
+
+mkdir -p ~/.config/autostart
+Bước 3: Tạo file .desktop (File "Shortcut")
+Bây giờ, hãy tạo một file cấu hình mới trong thư mục đó. Tên file có thể là bất cứ gì, miễn là nó kết thúc bằng .desktop.
+
+Gõ lệnh sau để tạo và chỉnh sửa file:
+
+Bash
+
+nano ~/.config/autostart/MyDashboard.desktop
+Bước 4: Dán nội dung này vào
+Một trình soạn thảo văn bản sẽ mở ra. Bạn hãy copy và dán nội dung sau vào:
+
+Ini, TOML
+
+[Desktop Entry]
+Type=Application
+Name=My Dashboard
+Comment=Khởi chạy Cụm đồng hồ
+Exec=/home/pi/MyProject/my_dashboard
+Quan trọng: Hãy thay đổi dòng Exec= thành đường dẫn tuyệt đối đến file thực thi của bạn.
+
+Nếu file của bạn nằm ở ~/QtProjects/build/my_app, thì dòng đó phải là Exec=/home/pi/QtProjects/build/my_app.
+
+Bước 5: Lưu file và Khởi động lại
+Trong nano, nhấn Ctrl + X.
+
+Nhấn Y để đồng ý lưu.
+
+Nhấn Enter để xác nhận tên file.
+
+Gõ sudo reboot để khởi động lại Pi.
+
+Sau khi Pi khởi động và vào desktop, ứng dụng Qt/QML của bạn sẽ tự động chạy.
+==========================
+/usr/bin/lwrespawn /usr/bin/pcmanfm-pi &
+/usr/bin/kanshi &
+/usr/bin/lxsession-xdg-autostart
+sudo reboot
+
+make -j4 //complie
+
+nano /home/pi/.config/autostart/dashboard.desktop //file autostart giao diện trơn
+nano /home/pi/Automotive_v1.2/Instrument_Cluster/run_all.sh //file chạy giao diện + AI
+chmod +x /home/pi/Automotive_v1.2/Instrument_Cluster/run_all.sh //kích hoạt
+
+pyrcc5 qml.qrc -o resources_rc.py //biên dích
+
+/usr/bin/python3 final.py
+/usr/bin/python3 Dashboard_main.py

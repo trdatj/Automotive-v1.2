@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=H Pin=J2-2
+Added Pin To Net: NetName=H Pin=M1-8
+Added Net: Name=H
+Added Pin To Net: NetName=L Pin=J2-1
+Added Pin To Net: NetName=L Pin=M1-9
+Added Net: Name=L
+Added Member To Class: ClassName=NodeSpeed Member=Component L1 LED 0805
+Added Member To Class: ClassName=NodeSpeed Member=Component R1 1k

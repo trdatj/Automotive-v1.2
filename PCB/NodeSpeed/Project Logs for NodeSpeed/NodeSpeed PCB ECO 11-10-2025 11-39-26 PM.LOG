@@ -1,0 +1,83 @@
+Added Component: Designator=CAN1(JST_B2B-XH-A_(LF)(SN))
+Added Component: Designator=encoder1(JST_B3B-XH-A(LF)(SN))
+Added Component: Designator=J1(CON6_100_59D78_TH_ST - duplicate)
+Added Component: Designator=L1(LED-1206-Green)
+Added Component: Designator=L2(LED-1206-Green)
+Added Component: Designator=L3(LED-1206-Green)
+Added Component: Designator=L4(LED-1206-Green)
+Added Component: Designator=M1(MCP2515_MODULE)
+Added Component: Designator=Power 1(JST_B2B-XH-A_(LF)(SN))
+Added Component: Designator=Power1(JST_B2B-XH-A_(LF)(SN))
+Added Component: Designator=R1(tro smd 1206)
+Added Component: Designator=R2(tro smd 1206)
+Added Component: Designator=R3(tro smd 1206)
+Added Component: Designator=R4(tro smd 1206)
+Added Component: Designator=U1(Stm32 BluePill)
+Added Pin To Net: NetName=L Pin=CAN1-1
+Added Pin To Net: NetName=H Pin=CAN1-2
+Added Pin To Net: NetName=ENCODER Pin=encoder1-1
+Added Pin To Net: NetName=GND Pin=encoder1-2
+Added Pin To Net: NetName=3V3 Pin=encoder1-3
+Added Pin To Net: NetName=ENA Pin=J1-1
+Added Pin To Net: NetName=IN1 Pin=J1-2
+Added Pin To Net: NetName=IN2 Pin=J1-3
+Added Pin To Net: NetName=12V Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=5V Pin=J1-6
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=GND Pin=L3-2
+Added Pin To Net: NetName=NetL4_1 Pin=L4-1
+Added Pin To Net: NetName=GND Pin=L4-2
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=CS_CAN Pin=M1-5
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Pin To Net: NetName=H Pin=M1-8
+Added Pin To Net: NetName=L Pin=M1-9
+Added Pin To Net: NetName=GND Pin=Power 1-1
+Added Pin To Net: NetName=GND Pin=Power1-1
+Added Pin To Net: NetName=5V Pin=Power1-2
+Added Pin To Net: NetName=12V Pin=Power 1-2
+Added Pin To Net: NetName=3V3 Pin=R1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Pin To Net: NetName=LED_CAN Pin=R3-1
+Added Pin To Net: NetName=NetL3_1 Pin=R3-2
+Added Pin To Net: NetName=LED_ENCODER Pin=R4-1
+Added Pin To Net: NetName=NetL4_1 Pin=R4-2
+Added Pin To Net: NetName=ENA Pin=U1-6
+Added Pin To Net: NetName=IN1 Pin=U1-7
+Added Pin To Net: NetName=IN2 Pin=U1-8
+Added Pin To Net: NetName=5V Pin=U1-18
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=3V3 Pin=U1-20
+Added Pin To Net: NetName=ENCODER Pin=U1-25
+Added Pin To Net: NetName=LED_ENCODER Pin=U1-26
+Added Pin To Net: NetName=LED_CAN Pin=U1-27
+Added Pin To Net: NetName=CS_CAN Pin=U1-29
+Added Pin To Net: NetName=SCK Pin=U1-30
+Added Pin To Net: NetName=MISO Pin=U1-31
+Added Pin To Net: NetName=MOSI Pin=U1-32
+Added Member To Class: ClassName=NodeSpeed Member=Component CAN1 
+Added Member To Class: ClassName=NodeSpeed Member=Component encoder1 
+Added Member To Class: ClassName=NodeSpeed Member=Component J1 Polulu_854
+Added Member To Class: ClassName=NodeSpeed Member=Component L1 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component L2 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component L3 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component L4 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component M1 MCP2515
+Added Member To Class: ClassName=NodeSpeed Member=Component Power 1 
+Added Member To Class: ClassName=NodeSpeed Member=Component Power1 
+Added Member To Class: ClassName=NodeSpeed Member=Component R1 1k
+Added Member To Class: ClassName=NodeSpeed Member=Component R2 1k
+Added Member To Class: ClassName=NodeSpeed Member=Component R3 1k
+Added Member To Class: ClassName=NodeSpeed Member=Component R4 1k
+Added Member To Class: ClassName=NodeSpeed Member=Component U1 STM32F103C8T6
+Added Room: Name=NodeSpeed

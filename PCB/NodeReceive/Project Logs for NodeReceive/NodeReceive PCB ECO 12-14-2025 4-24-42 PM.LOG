@@ -1,0 +1,46 @@
+Added Component: Designator=ESP1(ESP32 WROOM 32 KIT)
+Added Component: Designator=H1(Header 2P DC 2.54)
+Added Component: Designator=H2(Header 2P DC 2.54)
+Added Component: Designator=H3(Header 2P DC 2.54)
+Added Component: Designator=H4(Header 2P DC 2.54)
+Added Component: Designator=H5(Header 2P DC 2.54)
+Added Component: Designator=L1(LED-5MM-Green)
+Added Component: Designator=M1(MCP2515_MODULE)
+Added Component: Designator=R1(tro vach 1/4w)
+Added Component: Designator=RTC1(RTC DS1302 Module)
+Added Pin To Net: NetName=GND Pin=ESP1-14
+Added Pin To Net: NetName=5V Pin=ESP1-15
+Added Pin To Net: NetName=3V3 Pin=ESP1-16
+Added Pin To Net: NetName=H Pin=H1-1
+Added Pin To Net: NetName=L Pin=H1-2
+Added Pin To Net: NetName=GND Pin=H2-1
+Added Pin To Net: NetName=5V Pin=H2-2
+Added Pin To Net: NetName=H Pin=H3-1
+Added Pin To Net: NetName=L Pin=H3-2
+Added Pin To Net: NetName=H Pin=H4-1
+Added Pin To Net: NetName=L Pin=H4-2
+Added Pin To Net: NetName=H Pin=H5-1
+Added Pin To Net: NetName=L Pin=H5-2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=CS Pin=M1-5
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Pin To Net: NetName=H Pin=M1-8
+Added Pin To Net: NetName=L Pin=M1-9
+Added Pin To Net: NetName=5V Pin=R1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Member To Class: ClassName=NodeReceive Member=Component ESP1 ESP32 DEVKIT
+Added Member To Class: ClassName=NodeReceive Member=Component H1 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H2 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H3 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H4 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H5 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component L1 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component M1 MCP2515
+Added Member To Class: ClassName=NodeReceive Member=Component R1 1k
+Added Member To Class: ClassName=NodeReceive Member=Component RTC1 RTC DS1302
+Added Room: Name=NodeReceive

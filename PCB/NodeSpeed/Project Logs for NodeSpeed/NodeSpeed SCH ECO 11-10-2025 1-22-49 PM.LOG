@@ -1,0 +1,11 @@
+Change Component Designator: Old Designator=CAN New Designator=CAN1
+Change Component Designator: Old Designator=encoder New Designator=encoder1
+Change Component Designator: Old Designator=L1 New Designator=L2
+Change Component Designator: Old Designator=L2 New Designator=L4
+Change Component Designator: Old Designator=L3 New Designator=L5
+Change Component Designator: Old Designator=L298N New Designator=L3
+Change Component Designator: Old Designator=Power 12V New Designator=Power 1
+Change Component Designator: Old Designator=Power New Designator=Power1
+Change Component Designator: Old Designator=R1 New Designator=R2
+Change Component Designator: Old Designator=R2 New Designator=R3
+Change Component Designator: Old Designator=R3 New Designator=R4

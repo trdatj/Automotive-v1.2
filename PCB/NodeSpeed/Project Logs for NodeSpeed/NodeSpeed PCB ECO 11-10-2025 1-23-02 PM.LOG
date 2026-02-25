@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=LED_CAN Pin=R2-1
+Removed Member From Class: ClassName=NodeSpeed Member=L298N
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Tro 1206 5% 1k New DesignItemId=Tro 1206 1% 1k
+Change Component Comment : Designator=L2 Old Comment=LED 1206 New Comment=LED 0805
+Change Component Designator: OldDesignator=CAN NewDesignator=CAN1
+Change Component Designator: OldDesignator=encoder NewDesignator=encoder1
+Change Component Designator: OldDesignator=L3 NewDesignator=L5
+Change Component Designator: OldDesignator=L298N NewDesignator=L3
+Change Component Designator: OldDesignator=Power 12V NewDesignator=Power 1
+Change Component Designator: OldDesignator=Power NewDesignator=Power1
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Added Component: Designator=L4(LED-1206-Green)
+Added Component: Designator=R3(tro smd 1206)
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=LED_CAN Pin=R2-1
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetL5_1
+Added Pin To Net: NetName=NetL4_1 Pin=L2-1
+Added Pin To Net: NetName=NetL4_1 Pin=R2-2
+Added Net: Name=NetL4_1
+Added Member To Class: ClassName=NodeSpeed Member=Component L4 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component L5 LED 0805
+Added Member To Class: ClassName=NodeSpeed Member=Component R4 1k
+Added Room: Name=NodeSpeed

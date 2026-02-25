@@ -1,0 +1,49 @@
+Change Component Designator: OldDesignator=H6 NewDesignator=H7
+Change Component Designator: OldDesignator=L2 NewDesignator=L5
+Change Component Designator: OldDesignator=L3 NewDesignator=L6
+Change Component Designator: OldDesignator=L4 NewDesignator=L7
+Change Component Designator: OldDesignator=L5 NewDesignator=L8
+Change Component Designator: OldDesignator=R2 NewDesignator=R5
+Change Component Designator: OldDesignator=R3 NewDesignator=R6
+Change Component Designator: OldDesignator=R4 NewDesignator=R7
+Change Component Designator: OldDesignator=R5 NewDesignator=R8
+Added Component: Designator=H6(Header 2P DC 2.54)
+Added Component: Designator=L2(LED-5MM-Green)
+Added Component: Designator=L3(LED-5MM-Green)
+Added Component: Designator=L4(LED-5MM-Green)
+Added Component: Designator=R2(tro vach 1/4w)
+Added Component: Designator=R3(tro vach 1/4w)
+Added Component: Designator=R4(tro vach 1/4w)
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=GND Pin=L3-2
+Added Pin To Net: NetName=GND Pin=L4-2
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetL5_1
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetL6_1
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL7_1
+Change Net Name : Old Net Name=NetL5_1 New Net Name=NetL8_1
+Added Pin To Net: NetName=LED_CAN1 Pin=ESP1-20
+Added Pin To Net: NetName=LED_CAN1 Pin=R2-1
+Added Net: Name=LED_CAN1
+Added Pin To Net: NetName=LED_CAN2 Pin=ESP1-21
+Added Pin To Net: NetName=LED_CAN2 Pin=R3-1
+Added Net: Name=LED_CAN2
+Added Pin To Net: NetName=LED_CAN3 Pin=ESP1-22
+Added Pin To Net: NetName=LED_CAN3 Pin=R4-1
+Added Net: Name=LED_CAN3
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=NetL3_1 Pin=R3-2
+Added Net: Name=NetL3_1
+Added Pin To Net: NetName=NetL4_1 Pin=L4-1
+Added Pin To Net: NetName=NetL4_1 Pin=R4-2
+Added Net: Name=NetL4_1
+Added Member To Class: ClassName=NodeReceive Member=Component H7 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component L6 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L7 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L8 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R6 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R7 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R8 1k
+Added Room: Name=NodeReceive

@@ -1,0 +1,101 @@
+------------------------------------------------------------------------------------
+Chương 1: Tổng quan và Cơ sở lý thuyết
+	1.1. Đặt vấn đề:
+		Trình bày lý do chọn đề tài, mục tiêu nghiên cứu.
+		Đối tượng, phạm vi và phương pháp nghiên cứu.
+		Giới thiệu bố cục của báo cáo.
+	1.2. Tổng quan về hệ thống hỗ trợ lái xe nâng cao (ADAS):
+		Định nghĩa, lịch sử phát triển.
+		Các chức năng chính của ADAS.
+		Vai trò của cụm đồng hồ trong hệ thống ADAS.
+	1.3. Cơ sở lý thuyết về trí tuệ nhân tạo và thị giác máy tính:
+		Giới thiệu về Mạng nơ-ron tích chập.
+		Các mô hình nhận diện đối tượng phổ biến.
+		Giới thiệu về TensorFlow Lite và OpenCV cho các ứng dụng nhúng.
+	1.4. Cơ sở lý thuyết về Hệ thống nhúng và Giao tiếp:
+		1.4.1. vi điều khiển STM32F103
+		1.4.2 Raspberry Pi 3B
+		1.4.3 giao thức CAN bus
+		1.4.4		UART
+		//Tổng quan về thư viện đồ họa LVGL cho giao diện nhúng.
+Chương 2: Phân tích và Thiết kế hệ thống
+	2.1. Phân tích yêu cầu hệ thống
+		Yêu cầu chức năng (Hiển thị tốc độ, vòng tua, cảnh báo AI...).
+		Yêu cầu phi chức năng (Thời gian thực, độ ổn định, giao diện mượt mà...).
+	2.2. kiến trúc hệ thống
+		sơ đồ khối toàn hệ thống
+		Nguyên lý hoạt động 
+	2.3. Thiết kế phần cứng:
+		Lựa chọn linh kiện (VĐK, cảm biến, module...).
+		Thiết kế sơ đồ nguyên lý (Node xử lý AI, Node điều khiển hiển thị...).
+		Thiết kế mạch in (PCB).
+	2.4. Thiết kế phần mềm:
+		Thiết kế Module xử lý hình ảnh: Lựa chọn mô hình, thiết kế luồng xử lý ảnh trên Raspberry Pi.
+		Thiết kế Module Điều khiển: Thiết kế lưu đồ thuật toán cho chương trình chính trên STM32.
+		Thiết kế Giao diện Người dùng (GUI): Phác thảo các màn hình, bố cục của cụm đồng hồ (Speedometer, Tachometer, vùng cảnh báo).
+	2.5 Thiết kế Giao thức Giao tiếp
+		2.5.1 Định dạng các gói tin CAN (ID tin nhắn, cấu trúc dữ liệu...).
+		2.5.2 UART
+Chương 3: Triển khai và Đánh giá hệ thống
+	3.1. Triển khai phần cứng:
+		Mô tả quá trình thi công, lắp ráp mô hình thực tế.
+		Hình ảnh sản phẩm hoàn thiện.
+	3.2. Triển khai phần mềm:
+		Trình bày các đoạn mã nguồn quan trọng cho từng module:Code xử lý AI trên Raspberry Pi (Python, OpenCV, TFLite).
+		Code điều khiển chính trên STM32 (C/C++, STM32CubeMX).
+		Code khởi tạo và vẽ giao diện.
+		Code giao tiếp CAN/UART.
+	3.3. Kiểm thử và Đánh giá kết quả:
+		Trình bày phương pháp kiểm thử (Unit test, Integration test).
+		Xây dựng các kịch bản kiểm thử (Test cases).
+		Kết quả thực nghiệm:
+			Đánh giá độ chính xác của mô hình AI (nhận diện biển báo/đèn giao thông).
+			Đo đạc và đánh giá độ trễ của hệ thống (từ lúc phát hiện đến lúc hiển thị).
+			Đánh giá tính ổn định của giao tiếp CAN/UART.
+			Đánh giá độ mượt và trực quan của giao diện GUI.
+		Phân tích kết quả: Đối chiếu kết quả đạt được với mục tiêu đề ra ban 
+			đầu (các thông số, độ trễ, năng lượng, ...). Phân tích các ưu/nhược điểm của hệ thống.
+			
+======================================================================================
+MobileNet bản thân nó không phải là mô hình phát hiện đối tượng hoàn chỉnh, mà là mạng backbone (trích xuất đặc trưng).
+Vì vậy, việc nó là một giai đoạn hay hai giai đoạn phụ thuộc vào kiến trúc mà MobileNet được ghép vào.
+Phân loại theo cách sử dụng MobileNet
+🔹 1. MobileNet + SSD (SSDLite) → Mô hình một giai đoạn (One-stage)
+
+👉 Trường hợp bạn đang dùng MobileNetV2-SSDLite trên Raspberry Pi chính là dạng này.
+
+Ví dụ:
+
+MobileNetV2 + SSD
+
+MobileNetV3 + SSDLite
+
+Đặc điểm:
+
+Phát hiện trực tiếp bounding box + class trong 1 lần suy luận
+
+Nhanh, nhẹ, phù hợp thiết bị yếu (Raspberry Pi, ESP32 + NPU)
+
+Độ chính xác thấp hơn two-stage một chút
+
+📌 Kết luận:
+➡️ MobileNet + SSD = One-stage detector
+
+🔹 2. MobileNet + Faster R-CNN → Mô hình hai giai đoạn (Two-stage)
+
+MobileNet đóng vai trò backbone
+
+Faster R-CNN gồm:
+
+RPN (Region Proposal Network)
+
+Classifier + Regressor
+
+Đặc điểm:
+
+Chính xác cao hơn
+
+Chậm, nặng → không phù hợp Raspberry Pi
+
+📌 Kết luận:
+➡️ MobileNet + Faster R-CNN = Two-stage detector

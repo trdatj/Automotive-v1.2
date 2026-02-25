@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=L6-2
+Removed Member From Class: ClassName=NodeReceive Member=L6
+Removed Member From Class: ClassName=NodeReceive Member=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Added Room: Name=NodeReceive

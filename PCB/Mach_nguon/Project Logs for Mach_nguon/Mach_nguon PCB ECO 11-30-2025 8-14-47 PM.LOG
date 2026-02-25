@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetD1_3 Pin=KF2-1
+Added Component: Designator=F1(Fuse1)
+Added Pin To Net: NetName=NetD1_3 Pin=F1-2
+Added Pin To Net: NetName=NetD1_3 Pin=F1-2
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=KF2-1
+Added Net: Name=NetF1_1
+Added Member To Class: ClassName=Mach_nguon Member=Component F1 F1A
+Added Room: Name=Mach_nguon

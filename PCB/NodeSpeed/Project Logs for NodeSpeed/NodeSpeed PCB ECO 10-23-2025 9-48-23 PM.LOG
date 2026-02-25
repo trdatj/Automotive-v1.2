@@ -1,0 +1,8 @@
+Added Component: Designator=M1(MCP2515_MODULE)
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=CS_CAN Pin=M1-5
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Member To Class: ClassName=NodeSpeed Member=Component M1 MCP2515

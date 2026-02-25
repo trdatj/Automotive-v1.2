@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ENCODER Pin=Encoder-1
+Removed Pin From Net: NetName=GND Pin=Encoder-2
+Removed Pin From Net: NetName=3V3 Pin=Encoder-3
+Removed Member From Class: ClassName=NodeSpeed Member=H?
+Change Component Designator: OldDesignator=H? NewDesignator=Encoder
+Added Pin To Net: NetName=ENCODER Pin=Encoder-1
+Added Pin To Net: NetName=GND Pin=Encoder-2
+Added Pin To Net: NetName=3V3 Pin=Encoder-3
+Added Room: Name=NodeSpeed

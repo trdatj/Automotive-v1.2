@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LIMIT Pin=U1-15
+Removed Pin From Net: NetName=SET Pin=U1-16
+Removed Pin From Net: NetName=HAZARD Pin=U1-17
+Added Pin To Net: NetName=LIMIT Pin=U1-14
+Added Pin To Net: NetName=SET Pin=U1-15
+Added Pin To Net: NetName=HAZARD Pin=U1-16

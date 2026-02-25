@@ -1,0 +1,6 @@
+Added Component: Designator=Debug(Header 4P DC 2.54)
+Added Pin To Net: NetName=SCK Pin=Debug-1
+Added Pin To Net: NetName=MOSI Pin=Debug-2
+Added Pin To Net: NetName=MISO Pin=Debug-3
+Added Pin To Net: NetName=CS Pin=Debug-4
+Added Member To Class: ClassName=NodeReceive Member=Component Debug Header 4P 2.54 Duc Cong

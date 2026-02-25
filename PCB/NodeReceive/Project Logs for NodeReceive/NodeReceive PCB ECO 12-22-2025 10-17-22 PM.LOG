@@ -1,0 +1,87 @@
+Removed Pin From Net: NetName=XNP Pin=ESP1-7
+Removed Pin From Net: NetName=PHA Pin=ESP1-8
+Removed Pin From Net: NetName=LED_CAN4 Pin=ESP1-9
+Removed Pin From Net: NetName=LED_CAN5 Pin=ESP1-10
+Removed Pin From Net: NetName=COS Pin=ESP1-12
+Removed Pin From Net: NetName=XNT Pin=ESP1-13
+Change Component Designator: OldDesignator=L7 NewDesignator=L6
+Added Component: Designator=C1(tu gom)
+Added Component: Designator=COS(LED-5MM-Green)
+Added Component: Designator=H7(Header 2P DC 2.54)
+Added Component: Designator=H8(Header 4P DC 2.54)
+Added Component: Designator=J1(KF3-5.08)
+Added Component: Designator=L7(LED-5MM-Green)
+Added Component: Designator=PHA(LED-5MM-Green)
+Added Component: Designator=R8(tro vach 1/4w)
+Added Component: Designator=R10(tro vach 1/4w)
+Added Component: Designator=R11(tro vach 1/4w)
+Added Component: Designator=R12(tro vach 1/4w)
+Added Component: Designator=R13(tro vach 1/4w)
+Added Component: Designator=R14(tro vach 1/4w)
+Added Component: Designator=R15(tro vach 1/4w)
+Added Component: Designator=XNP(LED-5MM-Green)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetCOS_1 Pin=COS-1
+Added Pin To Net: NetName=GND Pin=COS-2
+Added Pin To Net: NetName=NetR8_2 Pin=ESP1-6
+Added Pin To Net: NetName=PHA Pin=ESP1-7
+Added Pin To Net: NetName=XNP Pin=ESP1-8
+Added Pin To Net: NetName=COS Pin=ESP1-9
+Added Pin To Net: NetName=XNT Pin=ESP1-10
+Added Pin To Net: NetName=LED_CAN4 Pin=ESP1-12
+Added Pin To Net: NetName=LED_CAN5 Pin=ESP1-13
+Added Pin To Net: NetName=GND Pin=H7-1
+Added Pin To Net: NetName=GND Pin=H8-1
+Added Pin To Net: NetName=NetR8_2 Pin=H8-3
+Added Pin To Net: NetName=5V Pin=H8-4
+Added Pin To Net: NetName=5V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=L7-2
+Added Pin To Net: NetName=NetPHA_1 Pin=PHA-1
+Added Pin To Net: NetName=GND Pin=PHA-2
+Added Pin To Net: NetName=XNT Pin=R8-1
+Added Pin To Net: NetName=XNP Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=COS Pin=R12-1
+Added Pin To Net: NetName=NetCOS_1 Pin=R12-2
+Added Pin To Net: NetName=PHA Pin=R14-1
+Added Pin To Net: NetName=NetPHA_1 Pin=R14-2
+Added Pin To Net: NetName=NetR10_2 Pin=XNP-1
+Added Pin To Net: NetName=GND Pin=XNP-2
+Change Net Name : Old Net Name=NetL7_1 New Net Name=NetL6_1
+Change Net Name : Old Net Name=NetR8_2 New Net Name=TRIG
+Added Pin To Net: NetName=DATA Pin=J1-3
+Added Pin To Net: NetName=DATA Pin=R11-1
+Added Net: Name=DATA
+Added Pin To Net: NetName=ECHO Pin=ESP1-5
+Added Pin To Net: NetName=ECHO Pin=H8-2
+Added Pin To Net: NetName=ECHO Pin=R13-1
+Added Pin To Net: NetName=ECHO Pin=R13-2
+Added Net: Name=ECHO
+Added Pin To Net: NetName=LED18B20 Pin=ESP1-11
+Added Pin To Net: NetName=LED18B20 Pin=R15-1
+Added Net: Name=LED18B20
+Added Pin To Net: NetName=NetH7_2 Pin=H7-2
+Added Pin To Net: NetName=NetH7_2 Pin=R8-2
+Added Net: Name=NetH7_2
+Added Pin To Net: NetName=NetL7_1 Pin=L7-1
+Added Pin To Net: NetName=NetL7_1 Pin=R15-2
+Added Net: Name=NetL7_1
+Added Member To Class: ClassName=NodeReceive Member=Component C1 104
+Added Member To Class: ClassName=NodeReceive Member=Component COS LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component H7 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H8 Header 4P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component J1 KF3
+Added Member To Class: ClassName=NodeReceive Member=Component L7 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component PHA LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R8 220
+Added Member To Class: ClassName=NodeReceive Member=Component R10 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R11 4.7k
+Added Member To Class: ClassName=NodeReceive Member=Component R12 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R13 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R14 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R15 220R
+Added Member To Class: ClassName=NodeReceive Member=Component XNP LED 5mm
+Added Room: Name=NodeReceive

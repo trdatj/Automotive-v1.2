@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MOTOR2 Pin=H1-1
+Removed Pin From Net: NetName=MOTOR1 Pin=H1-2
+Added Component: Designator=Encoder(Header 3P DC 2.54)
+Added Component: Designator=H3(Header 2P DC 2.54)
+Added Pin To Net: NetName=ENCODER Pin=Encoder-1
+Added Pin To Net: NetName=GND Pin=Encoder-2
+Added Pin To Net: NetName=3V3 Pin=Encoder-3
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=5V Pin=H1-2
+Added Pin To Net: NetName=MOTOR2 Pin=H1-1
+Added Pin To Net: NetName=MOTOR1 Pin=H1-2
+Added Member To Class: ClassName=NodeSpeed Member=Component Encoder Header 3P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeSpeed Member=Component H3 motor
+Added Room: Name=NodeSpeed

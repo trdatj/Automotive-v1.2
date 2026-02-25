@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"nodebodycontrol\startup_stm32f103xb.o"
+"nodebodycontrol\can_spi.o"
+"nodebodycontrol\mcp2515.o"
+"nodebodycontrol\main.o"
+"nodebodycontrol\stm32f1xx_it.o"
+"nodebodycontrol\stm32f1xx_hal_msp.o"
+"nodebodycontrol\stm32f1xx_hal_gpio_ex.o"
+"nodebodycontrol\stm32f1xx_hal_adc.o"
+"nodebodycontrol\stm32f1xx_hal_adc_ex.o"
+"nodebodycontrol\stm32f1xx_hal.o"
+"nodebodycontrol\stm32f1xx_hal_rcc.o"
+"nodebodycontrol\stm32f1xx_hal_rcc_ex.o"
+"nodebodycontrol\stm32f1xx_hal_gpio.o"
+"nodebodycontrol\stm32f1xx_hal_dma.o"
+"nodebodycontrol\stm32f1xx_hal_cortex.o"
+"nodebodycontrol\stm32f1xx_hal_pwr.o"
+"nodebodycontrol\stm32f1xx_hal_flash.o"
+"nodebodycontrol\stm32f1xx_hal_flash_ex.o"
+"nodebodycontrol\stm32f1xx_hal_exti.o"
+"nodebodycontrol\stm32f1xx_hal_spi.o"
+"nodebodycontrol\stm32f1xx_hal_tim.o"
+"nodebodycontrol\stm32f1xx_hal_tim_ex.o"
+"nodebodycontrol\system_stm32f1xx.o"
+--strict --scatter "NodeBodyControl\NodeBodyControl.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NodeBodyControl.map" -o NodeBodyControl\NodeBodyControl.axf

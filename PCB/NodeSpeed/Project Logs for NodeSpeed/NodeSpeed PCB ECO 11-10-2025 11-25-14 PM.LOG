@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=12V Pin=L3-1
+Removed Pin From Net: NetName=GND Pin=L3-2
+Removed Pin From Net: NetName=5V Pin=L3-3
+Removed Pin From Net: NetName=LED_CAN Pin=R2-1
+Removed Pin From Net: NetName=LED_CAN Pin=U1-6
+Removed Member From Class: ClassName=NodeSpeed Member=L5
+Change Component Designator: OldDesignator=L5 NewDesignator=L4
+Added Component: Designator=J1(CON6_100_59D78_TH_ST - duplicate)
+Added Component: Designator=L3(LED-1206-Green)
+Added Component: Designator=R3(tro smd 1206)
+Added Pin To Net: NetName=12V Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=5V Pin=J1-6
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=LED_CAN Pin=R2-1
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL2_1
+Change Net Name : Old Net Name=NetL5_1 New Net Name=NetL4_1
+Added Pin To Net: NetName=ENA Pin=J1-1
+Added Pin To Net: NetName=ENA Pin=U1-6
+Added Net: Name=ENA
+Added Pin To Net: NetName=IN1 Pin=J1-2
+Added Pin To Net: NetName=IN1 Pin=U1-7
+Added Net: Name=IN1
+Added Pin To Net: NetName=IN2 Pin=J1-3
+Added Pin To Net: NetName=IN2 Pin=U1-8
+Added Net: Name=IN2
+Added Pin To Net: NetName=NetL3_1 Pin=L2-1
+Added Pin To Net: NetName=NetL3_1 Pin=R2-2
+Added Net: Name=NetL3_1
+Added Member To Class: ClassName=NodeSpeed Member=Component J1 Polulu_854
+Added Room: Name=NodeSpeed

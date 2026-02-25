@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Added Component: Designator=R2(tro vach 1/4w)
+Added Component: Designator=R3(tro vach 1/4w)
+Added Component: Designator=R5(tro vach 1/4w)
+Added Pin To Net: NetName=TX Pin=R2-1
+Added Pin To Net: NetName=TX Pin=R2-2
+Added Pin To Net: NetName=RX Pin=R3-1
+Added Pin To Net: NetName=RX Pin=R3-2
+Added Pin To Net: NetName=5V Pin=R5-1
+Added Pin To Net: NetName=5V Pin=R5-2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR8_2
+Change Net Name : Old Net Name=NetR9_2 New Net Name=NetR10_2
+Added Member To Class: ClassName=NodeReceive Member=Component R2 0R
+Added Member To Class: ClassName=NodeReceive Member=Component R3 0R
+Added Member To Class: ClassName=NodeReceive Member=Component R14 220R
+Added Member To Class: ClassName=NodeReceive Member=Component R15 220
+Added Room: Name=NodeReceive

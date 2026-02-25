@@ -1,0 +1,43 @@
+Added Component: Designator=CAN1(Header 2P DC 2.54)
+Added Component: Designator=L1(LED-5MM-Green)
+Added Component: Designator=R1(tro vach 1/4w)
+Added Component: Designator=U1(Stm32 BluePill)
+Added Pin To Net: NetName=3V3 Pin=U1-20
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Pin To Net: NetName=5V Pin=U1-18
+Added Net: Name=5V
+Added Pin To Net: NetName=CS_CAN Pin=M1-5
+Added Pin To Net: NetName=CS_CAN Pin=U1-29
+Added Net: Name=CS_CAN
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Net: Name=GND
+Added Pin To Net: NetName=H Pin=CAN1-1
+Added Pin To Net: NetName=H Pin=M1-8
+Added Net: Name=H
+Added Pin To Net: NetName=JOYSTICK Pin=U1-26
+Added Net: Name=JOYSTICK
+Added Pin To Net: NetName=LED_CAN Pin=R1-1
+Added Net: Name=LED_CAN
+Added Pin To Net: NetName=L Pin=CAN1-2
+Added Pin To Net: NetName=L Pin=M1-9
+Added Net: Name=L
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=MISO Pin=U1-31
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MOSI Pin=U1-32
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=SCK Pin=U1-30
+Added Net: Name=SCK
+Added Member To Class: ClassName=NodeBodyControl Member=Component CAN1 
+Added Member To Class: ClassName=NodeBodyControl Member=Component L1 LED 5mm
+Added Member To Class: ClassName=NodeBodyControl Member=Component R1 1k
+Added Member To Class: ClassName=NodeBodyControl Member=Component U1 STM32F103C8T6
+Added Room: Name=NodeBodyControl

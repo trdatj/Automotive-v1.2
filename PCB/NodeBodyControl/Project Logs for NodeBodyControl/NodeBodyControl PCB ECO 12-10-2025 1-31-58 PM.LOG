@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=Joystick1-1
+Removed Pin From Net: NetName=5V Pin=Joystick1-2
+Removed Pin From Net: NetName=SPEED Pin=Joystick1-3
+Removed Pin From Net: NetName=CRUISE_CONTROL Pin=Joystick1-5
+Removed Member From Class: ClassName=NodeBodyControl Member=Joystick2
+Change Component Designator: OldDesignator=Joystick2 NewDesignator=Joystick1
+Added Pin To Net: NetName=GND Pin=Joystick1-1
+Added Pin To Net: NetName=5V Pin=Joystick1-2
+Added Pin To Net: NetName=SPEED Pin=Joystick1-3
+Added Pin To Net: NetName=CRUISE_CONTROL Pin=Joystick1-5

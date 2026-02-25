@@ -1,0 +1,8 @@
+Added Component: Designator=R_jump3(tro vach 1/4w)
+Added Component: Designator=R_jump4(tro vach 1/4w)
+Added Pin To Net: NetName=3V3 Pin=R_jump3-1
+Added Pin To Net: NetName=3V3 Pin=R_jump3-2
+Added Pin To Net: NetName=3V3 Pin=R_jump4-1
+Added Pin To Net: NetName=3V3 Pin=R_jump4-2
+Added Member To Class: ClassName=NodeBodyControl Member=Component R_jump3 0R
+Added Member To Class: ClassName=NodeBodyControl Member=Component R_jump4 0R

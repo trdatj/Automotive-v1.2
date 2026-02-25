@@ -1,0 +1,7 @@
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Tro Vach 1/4W 5% 4.7k New DesignItemId=Tro Vach 1/4W 5% 1k
+Change Component Comment : Designator=R11 Old Comment=4.7k New Comment=1k
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Added Component: Designator=R11(tro vach 1/4w)
+Added Pin To Net: NetName=DATA Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Member To Class: ClassName=NodeReceive Member=Component R12 1k

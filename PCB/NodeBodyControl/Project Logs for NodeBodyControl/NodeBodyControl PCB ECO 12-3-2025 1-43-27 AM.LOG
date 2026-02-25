@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=DENCOS Pin=U1-2
+Removed Pin From Net: NetName=DENPHA Pin=U1-3
+Removed Pin From Net: NetName=HAZARD Pin=U1-4
+Added Pin To Net: NetName=DENPHA Pin=U1-11
+Added Pin To Net: NetName=HAZARD Pin=U1-12
+Added Pin To Net: NetName=DENCOS Pin=U1-13

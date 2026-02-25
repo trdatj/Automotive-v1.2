@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=H6 NewDesignator=UART
+Added Pin To Net: NetName=RX Pin=ESP1-27
+Added Pin To Net: NetName=RX Pin=UART-1
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=ESP1-28
+Added Pin To Net: NetName=TX Pin=UART-2
+Added Net: Name=TX
+Added Member To Class: ClassName=NodeReceive Member=Component L2 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L3 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L4 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R2 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R3 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R4 1k
+Added Member To Class: ClassName=NodeReceive Member=Component UART Header 2P 2.54 Duc Cong

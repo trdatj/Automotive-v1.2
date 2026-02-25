@@ -1,0 +1,36 @@
+Change Component Designator: OldDesignator=H7 NewDesignator=H6
+Change Component Designator: OldDesignator=L5 NewDesignator=L6
+Change Component Designator: OldDesignator=L6 NewDesignator=L8
+Change Component Designator: OldDesignator=L7 NewDesignator=L9
+Change Component Designator: OldDesignator=L8 NewDesignator=L10
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Added Component: Designator=L5(LED-5MM-Green)
+Added Component: Designator=L7(LED-5MM-Green)
+Added Component: Designator=R5(tro vach 1/4w)
+Added Component: Designator=R7(tro vach 1/4w)
+Added Pin To Net: NetName=GND Pin=L5-2
+Added Pin To Net: NetName=GND Pin=L7-2
+Change Net Name : Old Net Name=NetL5_1 New Net Name=NetL6_1
+Change Net Name : Old Net Name=NetL6_1 New Net Name=NetL8_1
+Change Net Name : Old Net Name=NetL7_1 New Net Name=NetL9_1
+Change Net Name : Old Net Name=NetL8_1 New Net Name=NetL10_1
+Added Pin To Net: NetName=LED_CAN4 Pin=ESP1-9
+Added Pin To Net: NetName=LED_CAN4 Pin=R5-1
+Added Net: Name=LED_CAN4
+Added Pin To Net: NetName=LED_CAN5 Pin=ESP1-10
+Added Pin To Net: NetName=LED_CAN5 Pin=R7-1
+Added Net: Name=LED_CAN5
+Added Pin To Net: NetName=NetL5_1 Pin=L5-1
+Added Pin To Net: NetName=NetL5_1 Pin=R5-2
+Added Net: Name=NetL5_1
+Added Pin To Net: NetName=NetL7_1 Pin=L7-1
+Added Pin To Net: NetName=NetL7_1 Pin=R7-2
+Added Net: Name=NetL7_1
+Added Member To Class: ClassName=NodeReceive Member=Component L9 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L10 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R9 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R10 1k
+Added Room: Name=NodeReceive

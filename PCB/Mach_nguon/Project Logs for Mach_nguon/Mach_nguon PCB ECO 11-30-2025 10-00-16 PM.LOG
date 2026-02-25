@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=KF1-1
+Removed Pin From Net: NetName=12V Pin=KF1-2
+Removed Pin From Net: NetName=GND Pin=KF3-1
+Removed Pin From Net: NetName=5V Pin=KF3-2
+Change Component Designator: OldDesignator=KF2 NewDesignator=KF1
+Added Component: Designator=H1(Header 2P DC 2.54)
+Added Component: Designator=H2(Header 2P DC 2.54)
+Added Pin To Net: NetName=12V Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H1-2
+Added Pin To Net: NetName=5V Pin=H2-1
+Added Pin To Net: NetName=GND Pin=H2-2
+Added Member To Class: ClassName=Mach_nguon Member=Component C1 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C2 470uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C3 1000uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C4 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C5 470uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C6 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component D1 KBP206
+Added Member To Class: ClassName=Mach_nguon Member=Component F1 F1A
+Added Member To Class: ClassName=Mach_nguon Member=Component H1 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=Mach_nguon Member=Component H2 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=Mach_nguon Member=Component KF1 CON 2 KF301
+Added Member To Class: ClassName=Mach_nguon Member=Component L1 LED 5mm
+Added Member To Class: ClassName=Mach_nguon Member=Component L2 LED 5mm
+Added Member To Class: ClassName=Mach_nguon Member=Component Q1 LM7805CT/NOPB
+Added Member To Class: ClassName=Mach_nguon Member=Component R1 1k
+Added Member To Class: ClassName=Mach_nguon Member=Component R2 220
+Added Member To Class: ClassName=Mach_nguon Member=Component VR1 LM7812CT/NOPB
+Added Room: Name=Mach_nguon

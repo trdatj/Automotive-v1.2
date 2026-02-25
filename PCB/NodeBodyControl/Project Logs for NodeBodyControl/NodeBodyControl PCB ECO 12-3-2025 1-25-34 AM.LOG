@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ECHO Pin=U1-6
+Removed Pin From Net: NetName=LIMIT Pin=U1-15
+Added Pin To Net: NetName=LIMIT Pin=U1-6
+Added Pin To Net: NetName=ECHO Pin=U1-13

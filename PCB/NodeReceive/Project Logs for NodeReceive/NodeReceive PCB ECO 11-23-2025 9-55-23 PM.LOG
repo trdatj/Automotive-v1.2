@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet1 Member=DB2
+Change Component Designator: OldDesignator=DB2 NewDesignator=DB1
+Added Component: Designator=D2(DIODE CAU 2A 3A CAM)
+Added Member To Class: ClassName=Sheet1 Member=Component D2 2A 600V

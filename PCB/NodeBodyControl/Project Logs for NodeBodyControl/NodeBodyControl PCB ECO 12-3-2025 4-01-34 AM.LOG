@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=5V Pin=MCP2515-7
+Removed Pin From Net: NetName=5V Pin=R_jump1-1
+Added Pin To Net: NetName=NetMCP2515_7 Pin=MCP2515-7
+Added Pin To Net: NetName=NetMCP2515_7 Pin=R_jump1-1
+Added Net: Name=NetMCP2515_7

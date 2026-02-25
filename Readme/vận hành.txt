@@ -1,0 +1,91 @@
+GIAI ĐOẠN 1: KIỂM TRA DỮ LIỆU CẢM BIẾN (Sensor Check)
+Trước khi test logic, phải đảm bảo "mắt thần" (cảm biến siêu âm) và đường truyền CAN đang thông.
+
+Hành động: Lấy tay hoặc một vật cản (quyển sách) di chuyển ra xa - lại gần cảm biến siêu âm HC-SR04 nối với STM32.
+
+Quan sát (Serial ESP32):
+
+Tìm dòng | Distance: ... cm.
+
+Số đo có thay đổi mượt mà theo tay bro không?
+
+Nếu nó hiện 0 hoặc con số không đổi -> Kiểm tra lại dây nối HC-SR04 hoặc nguồn 5V cho cảm biến.
+
+GIAI ĐOẠN 2: TEST CHỨC NĂNG GAP (Cài đặt khoảng cách)
+Chức năng này hoạt động độc lập, có thể test ngay cả khi Cruise Control chưa bật.
+
+Hành động: Nhấn nút GAP trên STM32 (tương ứng Bit 3).
+
+Quan sát:
+
+Nhấn lần 1: Log hiện GAP CHANGED: Level 1 | Safe Dist: 10m (hoặc logic đảo tùy khởi tạo).
+
+Nhấn lần 2: Log hiện GAP CHANGED: Level 2 | Safe Dist: 30m.
+
+Nhấn lần 3: Log hiện GAP CHANGED: Level 3 | Safe Dist: 50m.
+
+Nhấn tiếp: Quay lại Level 1.
+
+Mục tiêu: Xác nhận ESP32 đã nhận đúng nút và cập nhật biến safetyDistance.
+
+GIAI ĐOẠN 3: TEST MÁY TRẠNG THÁI (Cruise State Machine)
+Đây là phần quan trọng nhất để xem logic chuyển đổi trạng thái có đúng không.
+
+Bước 3.1: Bật hệ thống (Ready)
+Hành động: Nhấn nút CRUISE MAIN (Bit 0).
+
+Quan sát: Log hiện dòng SYSTEM: CRUISE READY.
+
+Lưu ý: Lúc này hệ thống chưa tự ga, chưa cảnh báo khoảng cách (ACC chưa chạy).
+
+Bước 3.2: Kích hoạt (Active)
+Hành động: Nhấn nút SET/- (Bit 1).
+
+Quan sát:
+
+Log hiện CRUISE ACTIVE. Set Speed: 40.
+
+Bắt đầu xuất hiện dòng lặp liên tục: ACC | Dist: ... | Target: 40.
+
+Ý nghĩa: Hệ thống đã chiếm quyền điều khiển.
+
+Bước 3.3: Tăng/Giảm tốc độ
+Hành động: Nhấn nút RES/+ (Bit 2) vài lần.
+
+Quan sát: SPEED INCREASE (+): 42, 44, 46...
+
+Hành động: Nhấn nút SET/- (Bit 1) vài lần.
+
+Quan sát: SPEED DECREASE (-): 44, 42...
+
+Bước 3.4: Hủy bỏ (Cancel/Off)
+Hành động: Nhấn lại nút CRUISE MAIN (Bit 0).
+
+Quan sát: Log hiện SYSTEM: CRUISE OFF/CANCEL và các dòng log ACC | Dist... biến mất.
+
+GIAI ĐOẠN 4: TEST LOGIC ACC (Tự động phanh)
+Bây giờ bro kết hợp cả Cảm biến và Nút bấm.
+
+Thiết lập:
+
+Bật Cruise Main -> Nhấn SET để kích hoạt (Active).
+
+Nhấn nút GAP để chọn mức xa nhất (Level 3 - 50m) cho dễ test.
+
+Kịch bản A (An toàn):
+
+Để cảm biến hướng ra không gian trống (hoặc vật cản xa hơn 50cm - Lưu ý: trong code là cm nhưng logic hiển thị là m, bro cứ test theo số đo thực tế của cảm biến).
+
+Log mong đợi: -> [OK] MAINTAINING SPEED.
+
+Kịch bản B (Nguy hiểm):
+
+Đưa tay lại gần cảm biến (khoảng cách nhỏ hơn 50cm trên Serial).
+
+Log mong đợi: -> [WARN] TOO CLOSE! BRAKING....
+
+Kịch bản C (Thoát hiểm):
+
+Bỏ tay ra xa trở lại.
+
+Log mong đợi: Quay lại [OK] MAINTAINING SPEED.

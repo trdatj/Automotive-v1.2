@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LIMIT Pin=U1-6
+Removed Pin From Net: NetName=SET Pin=U1-17
+Added Pin To Net: NetName=SET Pin=U1-6
+Added Pin To Net: NetName=LIMIT Pin=U1-17

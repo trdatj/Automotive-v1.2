@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GAP Pin=U1-13
+Removed Pin From Net: NetName=SET Pin=U1-14
+Removed Pin From Net: NetName=RES Pin=U1-15
+Removed Pin From Net: NetName=LIMIT Pin=U1-16
+Added Component: Designator=H1(Header 4P DC 2.54)
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=ECHO Pin=H1-2
+Added Pin To Net: NetName=TRIG Pin=H1-3
+Added Pin To Net: NetName=5V Pin=H1-4
+Added Pin To Net: NetName=GAP Pin=U1-7
+Added Pin To Net: NetName=SET Pin=U1-8
+Added Pin To Net: NetName=RES Pin=U1-9
+Added Pin To Net: NetName=LIMIT Pin=U1-10
+Added Member To Class: ClassName=NodeBodyControl Member=Component H1 Header 4P 2.54 Duc Cong

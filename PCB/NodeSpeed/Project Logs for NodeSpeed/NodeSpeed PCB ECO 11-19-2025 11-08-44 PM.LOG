@@ -1,0 +1,9 @@
+Added Component: Designator=H1(Header 2P DC 2.54)
+Added Component: Designator=motor(Header 2P DC 2.54)
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=5V Pin=H1-2
+Added Pin To Net: NetName=MOTOR2 Pin=motor-1
+Added Pin To Net: NetName=MOTOR1 Pin=motor-2
+Added Member To Class: ClassName=NodeSpeed Member=Component H1 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeSpeed Member=Component motor 
+Added Room: Name=NodeSpeed

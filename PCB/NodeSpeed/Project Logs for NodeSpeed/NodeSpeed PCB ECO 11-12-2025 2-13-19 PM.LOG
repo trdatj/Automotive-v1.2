@@ -1,0 +1,10 @@
+Change Component DesignItemId : Designator=L1 Old DesignItemId=LED 1206 Xanh La New DesignItemId=LED 5mm Xanh La
+Change Component DesignItemId : Designator=L2 Old DesignItemId=LED 1206 Xanh La New DesignItemId=LED 5mm Xanh La
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Tro 1206 1% 1k New DesignItemId=Tro Vach 1/4W 5% 1k
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Tro 1206 5% 1k New DesignItemId=Tro Vach 1/4W 5% 1k
+Change Component Footprint: Designator=L1 Old Footprint=LED-1206-Green New Footprint=LED-5MM-Green
+Change Component Footprint: Designator=L2 Old Footprint=LED-1206-Green New Footprint=LED-5MM-Green
+Change Component Footprint: Designator=R1 Old Footprint=tro smd 1206 New Footprint=tro vach 1/4w
+Change Component Footprint: Designator=R2 Old Footprint=tro smd 1206 New Footprint=tro vach 1/4w
+Change Component Comment : Designator=L1 Old Comment=LED 1206 New Comment=LED 5mm
+Change Component Comment : Designator=L2 Old Comment=LED 1206 New Comment=LED 5mm

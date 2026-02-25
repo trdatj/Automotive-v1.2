@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SPEED Pin=R_jump5-1
+Removed Pin From Net: NetName=SPEED Pin=R_jump5-2
+Added Pin To Net: NetName=5V Pin=R_jump5-1
+Added Pin To Net: NetName=5V Pin=R_jump5-2

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=3V3 Pin=RTC1-1
+Removed Pin From Net: NetName=GND Pin=RTC1-2
+Removed Member From Class: ClassName=NodeReceive Member=RTC1

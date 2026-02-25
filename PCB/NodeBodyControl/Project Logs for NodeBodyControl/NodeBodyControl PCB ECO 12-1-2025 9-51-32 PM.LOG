@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=RES Pin=U1-34
+Added Pin To Net: NetName=RES Pin=U1-3
+Added Room: Name=NodeBodyControl

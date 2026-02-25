@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=H Pin=M1-8
+Removed Pin From Net: NetName=L Pin=M1-9
+Added Pin To Net: NetName=L Pin=M1-8
+Added Pin To Net: NetName=H Pin=M1-9
+Added Room: Name=NodeBodyControl

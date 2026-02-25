@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DENCOS Pin=U1-14
+Added Pin To Net: NetName=SET Pin=U1-14
+Added Room: Name=NodeBodyControl

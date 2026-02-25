@@ -1,0 +1,45 @@
+Added Component: Designator=L2(LED-5MM-Green)
+Added Component: Designator=L3(LED-5MM-Green)
+Added Component: Designator=L4(LED-5MM-Green)
+Added Component: Designator=L5(LED-5MM-Green)
+Added Component: Designator=R2(tro vach 1/4w)
+Added Component: Designator=R3(tro vach 1/4w)
+Added Component: Designator=R4(tro vach 1/4w)
+Added Component: Designator=R5(tro vach 1/4w)
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=GND Pin=L3-2
+Added Pin To Net: NetName=GND Pin=L4-2
+Added Pin To Net: NetName=GND Pin=L5-2
+Added Pin To Net: NetName=COS Pin=ESP1-6
+Added Pin To Net: NetName=COS Pin=R4-1
+Added Net: Name=COS
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=NetL3_1 Pin=R3-2
+Added Net: Name=NetL3_1
+Added Pin To Net: NetName=NetL4_1 Pin=L4-1
+Added Pin To Net: NetName=NetL4_1 Pin=R4-2
+Added Net: Name=NetL4_1
+Added Pin To Net: NetName=NetL5_1 Pin=L5-1
+Added Pin To Net: NetName=NetL5_1 Pin=R5-2
+Added Net: Name=NetL5_1
+Added Pin To Net: NetName=PHA Pin=ESP1-5
+Added Pin To Net: NetName=PHA Pin=R5-1
+Added Net: Name=PHA
+Added Pin To Net: NetName=XNP Pin=ESP1-7
+Added Pin To Net: NetName=XNP Pin=R3-1
+Added Net: Name=XNP
+Added Pin To Net: NetName=XNT Pin=ESP1-8
+Added Pin To Net: NetName=XNT Pin=R2-1
+Added Net: Name=XNT
+Added Member To Class: ClassName=NodeReceive Member=Component L2 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L3 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L4 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L5 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R2 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R3 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R4 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R5 1k
+Added Room: Name=NodeReceive

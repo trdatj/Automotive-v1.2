@@ -1,0 +1,7 @@
+Added Component: Designator=HC-SR04(Header 4P DC 2.54)
+Added Pin To Net: NetName=GND Pin=HC-SR04-1
+Added Pin To Net: NetName=ECHO Pin=HC-SR04-2
+Added Pin To Net: NetName=TRIG Pin=HC-SR04-3
+Added Pin To Net: NetName=5V Pin=HC-SR04-4
+Added Member To Class: ClassName=NodeBodyControl Member=Component HC-SR04 Header 4P 2.54 Duc Cong
+Added Room: Name=NodeBodyControl

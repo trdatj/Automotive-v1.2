@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=hazard Old Footprint=PUSH_BUTTON_12X12_YELLOW New Footprint=PUSH_BUTTON_12X12_RED
+Added Room: Name=NodeBodyControl

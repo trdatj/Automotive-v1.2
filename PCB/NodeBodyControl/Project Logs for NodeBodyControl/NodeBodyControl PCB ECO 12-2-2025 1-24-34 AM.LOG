@@ -1,0 +1,142 @@
+Removed Pin From Net: NetName=SPEED Pin=U1-26
+Removed Pin From Net: NetName=CRUISE_CONTROL Pin=U1-34
+Added Component: Designator=5V(Header 2P DC 2.54)
+Added Component: Designator=C1(tu gom)
+Added Component: Designator=C2(tu gom)
+Added Component: Designator=C3(tu gom)
+Added Component: Designator=C4(tu gom)
+Added Component: Designator=C5(tu gom)
+Added Component: Designator=C6(tu gom)
+Added Component: Designator=C7(tu gom)
+Added Component: Designator=CAN(Header 2P DC 2.54)
+Added Component: Designator=dencos(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=denpha(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=GAP(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=H1(Header 4P DC 2.54)
+Added Component: Designator=hazard(PUSH_BUTTON_12X12_RED)
+Added Component: Designator=Joystick1(Joystick)
+Added Component: Designator=L1(LED-5MM-Green)
+Added Component: Designator=L2(LED-5MM-Green)
+Added Component: Designator=LIMIT(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=R1(tro vach 1/4w)
+Added Component: Designator=R2(tro vach 1/4w)
+Added Component: Designator=R3(tro vach 1/4w)
+Added Component: Designator=R4(tro vach 1/4w)
+Added Component: Designator=R5(tro vach 1/4w)
+Added Component: Designator=R6(tro vach 1/4w)
+Added Component: Designator=R7(tro vach 1/4w)
+Added Component: Designator=R8(tro vach 1/4w)
+Added Component: Designator=R9(tro vach 1/4w)
+Added Component: Designator=RES(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=Set(PUSH_BUTTON_12X12_YELLOW)
+Added Component: Designator=xinhan(TOGGLE_SWITCH_SPDT)
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=5V Pin=5V-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=SET Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=DENPHA Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=RES Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=DENCOS Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=LIMIT Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=HAZARD Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GAP Pin=C7-2
+Added Pin To Net: NetName=H Pin=CAN-1
+Added Pin To Net: NetName=L Pin=CAN-2
+Added Pin To Net: NetName=DENCOS Pin=dencos-1
+Added Pin To Net: NetName=DENCOS Pin=dencos-1
+Added Pin To Net: NetName=GND Pin=dencos-2
+Added Pin To Net: NetName=GND Pin=dencos-2
+Added Pin To Net: NetName=DENPHA Pin=denpha-1
+Added Pin To Net: NetName=DENPHA Pin=denpha-1
+Added Pin To Net: NetName=GND Pin=denpha-2
+Added Pin To Net: NetName=GND Pin=denpha-2
+Added Pin To Net: NetName=GAP Pin=GAP-1
+Added Pin To Net: NetName=GAP Pin=GAP-1
+Added Pin To Net: NetName=GND Pin=GAP-2
+Added Pin To Net: NetName=GND Pin=GAP-2
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=ECHO Pin=H1-2
+Added Pin To Net: NetName=TRIG Pin=H1-3
+Added Pin To Net: NetName=5V Pin=H1-4
+Added Pin To Net: NetName=HAZARD Pin=hazard-1
+Added Pin To Net: NetName=HAZARD Pin=hazard-1
+Added Pin To Net: NetName=GND Pin=hazard-2
+Added Pin To Net: NetName=GND Pin=hazard-2
+Added Pin To Net: NetName=GND Pin=Joystick1-1
+Added Pin To Net: NetName=5V Pin=Joystick1-2
+Added Pin To Net: NetName=SPEED Pin=Joystick1-3
+Added Pin To Net: NetName=CRUISE_CONTROL Pin=Joystick1-5
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=LIMIT Pin=LIMIT-1
+Added Pin To Net: NetName=LIMIT Pin=LIMIT-1
+Added Pin To Net: NetName=GND Pin=LIMIT-2
+Added Pin To Net: NetName=GND Pin=LIMIT-2
+Added Pin To Net: NetName=5V Pin=R1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Pin To Net: NetName=LED_CAN Pin=R2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Pin To Net: NetName=SET Pin=R3-1
+Added Pin To Net: NetName=3V3 Pin=R3-2
+Added Pin To Net: NetName=DENPHA Pin=R4-1
+Added Pin To Net: NetName=3V3 Pin=R4-2
+Added Pin To Net: NetName=RES Pin=R5-1
+Added Pin To Net: NetName=3V3 Pin=R5-2
+Added Pin To Net: NetName=DENCOS Pin=R6-1
+Added Pin To Net: NetName=3V3 Pin=R6-2
+Added Pin To Net: NetName=LIMIT Pin=R7-1
+Added Pin To Net: NetName=3V3 Pin=R7-2
+Added Pin To Net: NetName=HAZARD Pin=R8-1
+Added Pin To Net: NetName=3V3 Pin=R8-2
+Added Pin To Net: NetName=GAP Pin=R9-1
+Added Pin To Net: NetName=3V3 Pin=R9-2
+Added Pin To Net: NetName=RES Pin=RES-1
+Added Pin To Net: NetName=RES Pin=RES-1
+Added Pin To Net: NetName=GND Pin=RES-2
+Added Pin To Net: NetName=GND Pin=RES-2
+Added Pin To Net: NetName=SET Pin=Set-1
+Added Pin To Net: NetName=SET Pin=Set-1
+Added Pin To Net: NetName=GND Pin=Set-2
+Added Pin To Net: NetName=GND Pin=Set-2
+Added Pin To Net: NetName=SPEED Pin=U1-34
+Added Pin To Net: NetName=XNP Pin=xinhan-1
+Added Pin To Net: NetName=GND Pin=xinhan-2
+Added Pin To Net: NetName=XNT Pin=xinhan-3
+Added Member To Class: ClassName=NodeBodyControl Member=Component 5V Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeBodyControl Member=Component C1 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C2 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C3 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C4 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C5 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C6 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component C7 104
+Added Member To Class: ClassName=NodeBodyControl Member=Component CAN 
+Added Member To Class: ClassName=NodeBodyControl Member=Component dencos PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component denpha PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component GAP PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component H1 Header 4P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeBodyControl Member=Component hazard PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component Joystick1 Joy
+Added Member To Class: ClassName=NodeBodyControl Member=Component L1 LED 5mm
+Added Member To Class: ClassName=NodeBodyControl Member=Component L2 LED 5mm
+Added Member To Class: ClassName=NodeBodyControl Member=Component LIMIT PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component R1 1k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R2 1k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R3 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R4 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R5 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R6 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R7 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R8 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component R9 10k
+Added Member To Class: ClassName=NodeBodyControl Member=Component RES PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component Set PUSH_BUTTON_12X12
+Added Member To Class: ClassName=NodeBodyControl Member=Component xinhan 

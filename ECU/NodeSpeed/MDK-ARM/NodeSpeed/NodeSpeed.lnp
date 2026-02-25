@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"nodespeed\startup_stm32f103xb.o"
+"nodespeed\can_spi.o"
+"nodespeed\mcp2515.o"
+"nodespeed\main.o"
+"nodespeed\stm32f1xx_it.o"
+"nodespeed\stm32f1xx_hal_msp.o"
+"nodespeed\stm32f1xx_hal_gpio_ex.o"
+"nodespeed\stm32f1xx_hal_spi.o"
+"nodespeed\stm32f1xx_hal.o"
+"nodespeed\stm32f1xx_hal_rcc.o"
+"nodespeed\stm32f1xx_hal_rcc_ex.o"
+"nodespeed\stm32f1xx_hal_gpio.o"
+"nodespeed\stm32f1xx_hal_dma.o"
+"nodespeed\stm32f1xx_hal_cortex.o"
+"nodespeed\stm32f1xx_hal_pwr.o"
+"nodespeed\stm32f1xx_hal_flash.o"
+"nodespeed\stm32f1xx_hal_flash_ex.o"
+"nodespeed\stm32f1xx_hal_exti.o"
+"nodespeed\stm32f1xx_hal_tim.o"
+"nodespeed\stm32f1xx_hal_tim_ex.o"
+"nodespeed\system_stm32f1xx.o"
+--strict --scatter "NodeSpeed\NodeSpeed.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NodeSpeed.map" -o NodeSpeed\NodeSpeed.axf

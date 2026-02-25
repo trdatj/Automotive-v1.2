@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=L Pin=CAN-1
+Removed Pin From Net: NetName=H Pin=CAN-2
+Removed Pin From Net: NetName=SCK Pin=M1-2
+Removed Pin From Net: NetName=MOSI Pin=M1-3
+Removed Pin From Net: NetName=MISO Pin=M1-4
+Removed Pin From Net: NetName=CS_CAN Pin=M1-5
+Removed Pin From Net: NetName=GND Pin=M1-6
+Removed Pin From Net: NetName=5V Pin=M1-7
+Removed Pin From Net: NetName=H Pin=M1-8
+Removed Pin From Net: NetName=L Pin=M1-9
+Removed Member From Class: ClassName=NodeSpeed Member=M1
+Added Component: Designator=M?(MCP2515_MODULE)
+Added Pin To Net: NetName=H Pin=CAN-1
+Added Pin To Net: NetName=L Pin=CAN-2
+Added Pin To Net: NetName=SCK Pin=M?-2
+Added Pin To Net: NetName=MOSI Pin=M?-3
+Added Pin To Net: NetName=MISO Pin=M?-4
+Added Pin To Net: NetName=CS_CAN Pin=M?-5
+Added Pin To Net: NetName=GND Pin=M?-6
+Added Pin To Net: NetName=5V Pin=M?-7
+Added Member To Class: ClassName=NodeSpeed Member=Component M? MCP2515
+Added Room: Name=NodeSpeed

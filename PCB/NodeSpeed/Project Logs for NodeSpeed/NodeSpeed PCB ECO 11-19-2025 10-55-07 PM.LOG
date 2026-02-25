@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=MOTOR2 Pin=H1-1
+Removed Pin From Net: NetName=MOTOR1 Pin=H1-2
+Change Component Comment : Designator=H2 Old Comment=CAN New Comment=
+Change Component Designator: OldDesignator=H2 NewDesignator=CAN
+Added Component: Designator=H3(Header 2P DC 2.54)
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=5V Pin=H1-2
+Added Pin To Net: NetName=MOTOR2 Pin=H1-1
+Added Pin To Net: NetName=MOTOR1 Pin=H1-2
+Added Room: Name=NodeSpeed

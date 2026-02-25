@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=5V Pin=RTC1-1
+Added Component: Designator=H6(Header 2P DC 2.54)
+Added Pin To Net: NetName=H Pin=H6-1
+Added Pin To Net: NetName=L Pin=H6-2
+Added Pin To Net: NetName=3V3 Pin=RTC1-1
+Added Pin To Net: NetName=CLK Pin=ESP1-11
+Added Pin To Net: NetName=CLK Pin=RTC1-3
+Added Net: Name=CLK
+Added Pin To Net: NetName=DAT Pin=ESP1-10
+Added Pin To Net: NetName=DAT Pin=RTC1-4
+Added Net: Name=DAT
+Added Pin To Net: NetName=RST Pin=ESP1-9
+Added Pin To Net: NetName=RST Pin=RTC1-5
+Added Net: Name=RST
+Added Member To Class: ClassName=NodeReceive Member=Component H6 Header 2P 2.54 Duc Cong

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ECHO Pin=H7-2
+Removed Pin From Net: NetName=ECHO Pin=R12-1
+Added Pin To Net: NetName=NetH7_2 Pin=H7-2
+Added Pin To Net: NetName=NetH7_2 Pin=R12-1
+Added Net: Name=NetH7_2

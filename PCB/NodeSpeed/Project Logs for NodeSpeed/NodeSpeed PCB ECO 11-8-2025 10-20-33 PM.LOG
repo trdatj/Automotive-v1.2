@@ -1,0 +1,3 @@
+Added Component: Designator=L298N(JST_B3B-XH-A(LF)(SN))
+Added Member To Class: ClassName=NodeSpeed Member=Component L298N 
+Added Room: Name=NodeSpeed

@@ -1,0 +1,56 @@
+Added Component: Designator=C1(tu gom)
+Added Component: Designator=DS18B20(KF3-5.08)
+Added Component: Designator=H2(Header 2P DC 2.54)
+Added Component: Designator=H7(Header 4P DC 2.54)
+Added Component: Designator=L1(LED-5MM-Green)
+Added Component: Designator=L7(LED-5MM-Green)
+Added Component: Designator=R1(tro vach 1/4w)
+Added Component: Designator=R3(tro vach 1/4w)
+Added Component: Designator=R4(tro vach 1/4w)
+Added Component: Designator=R11(tro vach 1/4w)
+Added Component: Designator=R12(tro vach 1/4w)
+Added Component: Designator=R14(tro vach 1/4w)
+Added Component: Designator=UART(Header 2P DC 2.54)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=5V Pin=DS18B20-1
+Added Pin To Net: NetName=GND Pin=DS18B20-2
+Added Pin To Net: NetName=DATA Pin=DS18B20-3
+Added Pin To Net: NetName=GND Pin=H2-1
+Added Pin To Net: NetName=5V Pin=H2-2
+Added Pin To Net: NetName=GND Pin=H7-1
+Added Pin To Net: NetName=NetH7_2 Pin=H7-2
+Added Pin To Net: NetName=TRIG Pin=H7-3
+Added Pin To Net: NetName=5V Pin=H7-4
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=NetL7_1 Pin=L7-1
+Added Pin To Net: NetName=GND Pin=L7-2
+Added Pin To Net: NetName=5V Pin=R1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Pin To Net: NetName=TX Pin=R3-1
+Added Pin To Net: NetName=TX Pin=R3-2
+Added Pin To Net: NetName=RX Pin=R4-1
+Added Pin To Net: NetName=RX Pin=R4-2
+Added Pin To Net: NetName=DATA Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=NetH7_2 Pin=R12-1
+Added Pin To Net: NetName=ECHO Pin=R12-2
+Added Pin To Net: NetName=LEDDS18B20 Pin=R14-1
+Added Pin To Net: NetName=NetL7_1 Pin=R14-2
+Added Pin To Net: NetName=TX Pin=UART-1
+Added Pin To Net: NetName=RX Pin=UART-2
+Added Member To Class: ClassName=NodeReceive Member=Component C1 104
+Added Member To Class: ClassName=NodeReceive Member=Component DS18B20 KF3
+Added Member To Class: ClassName=NodeReceive Member=Component H2 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H7 Header 4P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component L1 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component L7 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R1 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R3 0R
+Added Member To Class: ClassName=NodeReceive Member=Component R4 0R
+Added Member To Class: ClassName=NodeReceive Member=Component R11 4.7k
+Added Member To Class: ClassName=NodeReceive Member=Component R12 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R14 220R
+Added Member To Class: ClassName=NodeReceive Member=Component UART Header 2P 2.54 Duc Cong
+Added Room: Name=NodeReceive

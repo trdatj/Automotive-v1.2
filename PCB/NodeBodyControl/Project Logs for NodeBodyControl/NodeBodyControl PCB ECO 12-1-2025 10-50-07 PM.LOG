@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GAP Pin=U1-3
+Removed Pin From Net: NetName=RES Pin=U1-4
+Removed Pin From Net: NetName=LED_CAN Pin=U1-35
+Added Pin To Net: NetName=LED_CAN Pin=U1-3
+Added Pin To Net: NetName=GAP Pin=U1-4
+Added Pin To Net: NetName=RES Pin=U1-5

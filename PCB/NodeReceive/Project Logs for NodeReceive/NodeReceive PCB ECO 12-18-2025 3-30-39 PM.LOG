@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LED_CAN1 Pin=ESP1-20
+Removed Pin From Net: NetName=LED_CAN2 Pin=ESP1-22
+Added Pin To Net: NetName=LED_CAN1 Pin=ESP1-22

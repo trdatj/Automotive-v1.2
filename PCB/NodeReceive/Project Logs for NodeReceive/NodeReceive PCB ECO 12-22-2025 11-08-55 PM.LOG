@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=L1-2
+Removed Pin From Net: NetName=5V Pin=R1-1
+Removed Member From Class: ClassName=NodeReceive Member=L7
+Removed Member From Class: ClassName=NodeReceive Member=R15
+Change Component Designator: OldDesignator=L2 NewDesignator=L1
+Change Component Designator: OldDesignator=L3 NewDesignator=L2
+Change Component Designator: OldDesignator=L4 NewDesignator=L3
+Change Component Designator: OldDesignator=L5 NewDesignator=L4
+Change Component Designator: OldDesignator=L6 NewDesignator=L5
+Change Component Designator: OldDesignator=L7 NewDesignator=L6
+Change Component Designator: OldDesignator=R2 NewDesignator=R1
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetL1_1
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetL2_1
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL3_1
+Change Net Name : Old Net Name=NetL5_1 New Net Name=NetL4_1
+Change Net Name : Old Net Name=NetL6_1 New Net Name=NetL5_1
+Change Net Name : Old Net Name=NetL7_1 New Net Name=NetL6_1
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR9_2
+Added Room: Name=NodeReceive

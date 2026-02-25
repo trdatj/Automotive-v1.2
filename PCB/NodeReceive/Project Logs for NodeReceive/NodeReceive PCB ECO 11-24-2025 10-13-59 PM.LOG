@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=H5-1
+Removed Pin From Net: NetName=5V Pin=H5-2
+Removed Pin From Net: NetName=GND Pin=LM1-3
+Removed Pin From Net: NetName=5V Pin=LM1-4
+Removed Member From Class: ClassName=NodeReceive Member=LM1
+Removed Member From Class: ClassName=NodeReceive Member=Vin12
+Change Component Designator: OldDesignator=H6 NewDesignator=H5
+Change Component Designator: OldDesignator=H7 NewDesignator=H6
+Change Component Designator: OldDesignator=H8 NewDesignator=H7
+Change Component Designator: OldDesignator=H9 NewDesignator=H8
+Added Component: Designator=D1(DIOB_GBJ2510)
+Added Component: Designator=H9(Header 2P DC 2.54)
+Added Component: Designator=P1(CON 4 4EDG5.08)
+Added Pin To Net: NetName=GND Pin=H9-1
+Added Pin To Net: NetName=5V Pin=H9-2
+Added Class: Name=Nguon
+Added Room: Name=Nguon
+Added Room: Name=NodeReceive

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=CS_CAN Pin=U1-29
+Removed Pin From Net: NetName=DENCOS Pin=U1-33
+Added Pin To Net: NetName=CS_CAN Pin=U1-33

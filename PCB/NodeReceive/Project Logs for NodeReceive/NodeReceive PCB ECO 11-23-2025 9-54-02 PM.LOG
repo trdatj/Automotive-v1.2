@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=DB? NewDesignator=DB2
+Added Component: Designator=DB1(DIODE CAU 6A CAM)
+Added Member To Class: ClassName=Sheet1 Member=Component DB1 6A 1000V
+Added Member To Class: ClassName=NodeReceive Member=Component H9 Header 2P 2.54 Duc Cong

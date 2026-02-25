@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=LED_CAN Pin=R2-1
+Change Component Comment : Designator=L1 Old Comment=LED 0805 New Comment=LED 1206
+Change Component Comment : Designator=L2 Old Comment=LED 0805 New Comment=LED 1206
+Change Component Comment : Designator=L4 Old Comment=LED 0805 New Comment=LED 1206
+Added Component: Designator=L3(LED-1206-Green)
+Added Component: Designator=R3(tro smd 1206)
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=LED_CAN Pin=R2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Pin To Net: NetName=LED_CAN Pin=U1-26
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetL3_1
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetL2_1
+Added Member To Class: ClassName=NodeSpeed Member=Component L3 LED 1206
+Added Member To Class: ClassName=NodeSpeed Member=Component R3 1k
+Added Room: Name=NodeSpeed

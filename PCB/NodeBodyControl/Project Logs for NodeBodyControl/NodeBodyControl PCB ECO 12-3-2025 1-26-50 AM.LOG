@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RES Pin=U1-14
+Removed Pin From Net: NetName=GAP Pin=U1-16
+Added Pin To Net: NetName=GAP Pin=U1-14
+Added Pin To Net: NetName=RES Pin=U1-16

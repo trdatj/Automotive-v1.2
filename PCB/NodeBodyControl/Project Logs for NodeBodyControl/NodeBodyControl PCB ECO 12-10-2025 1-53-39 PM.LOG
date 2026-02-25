@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=XNP Pin=xinhan-1
+Removed Pin From Net: NetName=XNT Pin=xinhan-3
+Added Pin To Net: NetName=XNT Pin=xinhan-1
+Added Pin To Net: NetName=XNP Pin=xinhan-3

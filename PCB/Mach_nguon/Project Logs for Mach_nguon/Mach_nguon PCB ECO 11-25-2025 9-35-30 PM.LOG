@@ -1,0 +1,69 @@
+Added Component: Designator=C1(tu gom)
+Added Component: Designator=C2(tu hoa 8mm)
+Added Component: Designator=C3(tu hoa 8mm)
+Added Component: Designator=C4(tu gom)
+Added Component: Designator=C5(tu hoa 8mm)
+Added Component: Designator=C6(tu gom)
+Added Component: Designator=D1(SIP380W81P386L1470H1270Q4)
+Added Component: Designator=KF1(Con 2 KF301 5.08)
+Added Component: Designator=KF2(Con 2 KF301 5.08)
+Added Component: Designator=KF3(Con 2 KF301 5.08)
+Added Component: Designator=L1(LED-5MM-RED)
+Added Component: Designator=L2(LED-5MM-RED)
+Added Component: Designator=Q1(TO254P1054X470X1955-3)
+Added Component: Designator=R1(tro vach 1/2w)
+Added Component: Designator=R2(tro vach 1/2w)
+Added Component: Designator=VR1(TO254P1054X470X1955-3)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=NetC3_1 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetC5_1 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetC3_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_3 Pin=D1-3
+Added Pin To Net: NetName=GND Pin=D1-4
+Added Pin To Net: NetName=GND Pin=KF1-1
+Added Pin To Net: NetName=NetC1_1 Pin=KF1-2
+Added Pin To Net: NetName=NetD1_3 Pin=KF2-1
+Added Pin To Net: NetName=NetD1_2 Pin=KF2-2
+Added Pin To Net: NetName=GND Pin=KF3-1
+Added Pin To Net: NetName=NetC5_1 Pin=KF3-2
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=NetC3_1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetC5_1 Pin=Q1-3
+Added Pin To Net: NetName=NetL1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC1_1 Pin=R1-2
+Added Pin To Net: NetName=NetL2_1 Pin=R2-1
+Added Pin To Net: NetName=NetC5_1 Pin=R2-2
+Added Pin To Net: NetName=NetC3_1 Pin=VR1-1
+Added Pin To Net: NetName=GND Pin=VR1-2
+Added Pin To Net: NetName=NetC1_1 Pin=VR1-3
+Added Member To Class: ClassName=Mach_nguon Member=Component C1 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C2 470uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C3 1000uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C4 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C5 470uF
+Added Member To Class: ClassName=Mach_nguon Member=Component C6 0.1uF
+Added Member To Class: ClassName=Mach_nguon Member=Component D1 KBP206
+Added Member To Class: ClassName=Mach_nguon Member=Component KF1 CON 2 KF301
+Added Member To Class: ClassName=Mach_nguon Member=Component KF2 CON 2 KF301
+Added Member To Class: ClassName=Mach_nguon Member=Component KF3 CON 2 KF301
+Added Member To Class: ClassName=Mach_nguon Member=Component L1 LED 5mm
+Added Member To Class: ClassName=Mach_nguon Member=Component L2 LED 5mm
+Added Member To Class: ClassName=Mach_nguon Member=Component Q1 LM7805CT/NOPB
+Added Member To Class: ClassName=Mach_nguon Member=Component R1 1k
+Added Member To Class: ClassName=Mach_nguon Member=Component R2 1k
+Added Member To Class: ClassName=Mach_nguon Member=Component VR1 LM7812CT/NOPB
+Added Room: Name=Mach_nguon

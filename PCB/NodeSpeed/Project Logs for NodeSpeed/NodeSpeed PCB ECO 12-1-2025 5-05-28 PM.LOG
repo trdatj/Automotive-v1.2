@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=12V-1
+Removed Pin From Net: NetName=12V Pin=12V-2
+Removed Member From Class: ClassName=NodeSpeed Member=12V
+Change Component Designator: OldDesignator=5V NewDesignator=1
+Change Component Designator: OldDesignator=CAN NewDesignator=CAN1
+Change Component Designator: OldDesignator=Encoder NewDesignator=Encoder1
+Change Component Designator: OldDesignator=motor NewDesignator=motor1
+Added Component: Designator=2(Header 2P DC 2.54)
+Added Component: Designator=M1(MCP2515_MODULE)
+Added Pin To Net: NetName=GND Pin=2-1
+Added Pin To Net: NetName=12V Pin=2-2
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=CS_CAN Pin=M1-5
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Member To Class: ClassName=NodeSpeed Member=Component 2 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeSpeed Member=Component M1 MCP2515
+Added Room: Name=NodeSpeed

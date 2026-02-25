@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LIMIT Pin=U1-35
+Added Pin To Net: NetName=LIMIT Pin=U1-4
+Added Room: Name=NodeBodyControl

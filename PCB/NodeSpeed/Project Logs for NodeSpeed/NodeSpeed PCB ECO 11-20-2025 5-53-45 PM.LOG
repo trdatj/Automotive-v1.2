@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ENCODER Pin=Encoder-1
+Removed Pin From Net: NetName=3V3 Pin=Encoder-3
+Added Pin To Net: NetName=3V3 Pin=Encoder-1
+Added Pin To Net: NetName=ENCODER Pin=Encoder-3
+Added Member To Class: ClassName=NodeSpeed Member=Component Encoder Header 3P 2.54 Duc Cong
+Added Room: Name=NodeSpeed

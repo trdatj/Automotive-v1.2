@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HAZARD Pin=U1-15
+Removed Pin From Net: NetName=XNT Pin=U1-17
+Added Pin To Net: NetName=HAZARD Pin=U1-17
+Added Room: Name=NodeBodyControl

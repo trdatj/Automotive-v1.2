@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=L4 Old DesignItemId=LED 3mm Xanh La New DesignItemId=LED 5mm Xanh La
+Change Component Footprint: Designator=L4 Old Footprint=LED-3MM-GREEN New Footprint=LED-5MM-Green
+Change Component Comment : Designator=L4 Old Comment=LED 3mm New Comment=LED 5mm
+Added Room: Name=NodeSpeed

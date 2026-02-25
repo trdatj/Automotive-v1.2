@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=L1 NewDesignator=L2
+Change Component Designator: OldDesignator=L2 NewDesignator=L3
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Added Component: Designator=L1(LED-1206-Green)
+Added Component: Designator=R1(tro smd 1206)
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=3V3 Pin=R1-1
+Change Net Name : Old Net Name=NetL1_1 New Net Name=NetL2_1
+Change Net Name : Old Net Name=NetL2_1 New Net Name=NetL3_1
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Net: Name=NetL1_1
+Added Member To Class: ClassName=NodeSpeed Member=Component L3 LED 0805
+Added Member To Class: ClassName=NodeSpeed Member=Component R3 1k

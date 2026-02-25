@@ -1,0 +1,82 @@
+Added Component: Designator=Boot1(Nut Nhan 2 Chan SMD 3x6x2.5)
+Added Component: Designator=C1(tu 1206)
+Added Component: Designator=C2(tu 1206)
+Added Component: Designator=H1(Header 2P DC 2.54)
+Added Component: Designator=H2(Header 2P DC 2.54)
+Added Component: Designator=H3(Header 2P DC 2.54)
+Added Component: Designator=H4(Header 2P DC 2.54)
+Added Component: Designator=H5(Header 2P DC 2.54)
+Added Component: Designator=L1(LED-1206-Yellow)
+Added Component: Designator=M1(MCP2515_MODULE)
+Added Component: Designator=R1(tro smd 1206)
+Added Component: Designator=R2(tro smd 1206)
+Added Component: Designator=R3(tro smd 1206)
+Added Component: Designator=Reset1(Nut Nhan 2 Chan SMD 3x6x2.5)
+Added Pin To Net: NetName=GND Pin=AMS1-1
+Added Pin To Net: NetName=3V3 Pin=AMS1-2
+Added Pin To Net: NetName=GND Pin=Boot1-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=H5-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=GND Pin=M1-6
+Added Pin To Net: NetName=3V3 Pin=R1-1
+Added Pin To Net: NetName=3V3 Pin=R2-1
+Added Pin To Net: NetName=3V3 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=Reset1-2
+Added Pin To Net: NetName=5V Pin=AMS1-3
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=5V Pin=H5-2
+Added Pin To Net: NetName=5V Pin=M1-7
+Added Net: Name=5V
+Added Pin To Net: NetName=CS Pin=M1-5
+Added Pin To Net: NetName=CS Pin=U1-29
+Added Net: Name=CS
+Added Pin To Net: NetName=EN Pin=R3-2
+Added Pin To Net: NetName=EN Pin=Reset1-1
+Added Pin To Net: NetName=EN Pin=U1-3
+Added Net: Name=EN
+Added Pin To Net: NetName=H Pin=H1-1
+Added Pin To Net: NetName=H Pin=H2-1
+Added Pin To Net: NetName=H Pin=H3-1
+Added Pin To Net: NetName=H Pin=H4-1
+Added Pin To Net: NetName=H Pin=M1-8
+Added Net: Name=H
+Added Pin To Net: NetName=IO0 Pin=Boot1-1
+Added Pin To Net: NetName=IO0 Pin=R2-2
+Added Pin To Net: NetName=IO0 Pin=U1-25
+Added Net: Name=IO0
+Added Pin To Net: NetName=L Pin=H1-2
+Added Pin To Net: NetName=L Pin=H2-2
+Added Pin To Net: NetName=L Pin=H3-2
+Added Pin To Net: NetName=L Pin=H4-2
+Added Pin To Net: NetName=L Pin=M1-9
+Added Net: Name=L
+Added Pin To Net: NetName=MISO Pin=M1-4
+Added Pin To Net: NetName=MISO Pin=U1-31
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=M1-3
+Added Pin To Net: NetName=MOSI Pin=U1-37
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=SCK Pin=M1-2
+Added Pin To Net: NetName=SCK Pin=U1-30
+Added Net: Name=SCK
+Added Member To Class: ClassName=NodeReceive Member=Component Boot1 Nut Nhan 2 Chan SMD 3x6x2.5
+Added Member To Class: ClassName=NodeReceive Member=Component C1 106
+Added Member To Class: ClassName=NodeReceive Member=Component C2 106
+Added Member To Class: ClassName=NodeReceive Member=Component H1 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H2 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H3 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H4 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component H5 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=NodeReceive Member=Component L1 LED 0805
+Added Member To Class: ClassName=NodeReceive Member=Component M1 MCP2515
+Added Member To Class: ClassName=NodeReceive Member=Component R1 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R2 1k
+Added Member To Class: ClassName=NodeReceive Member=Component R3 1k
+Added Member To Class: ClassName=NodeReceive Member=Component Reset1 Nut Nhan 2 Chan SMD 3x6x2.5
+Added Room: Name=NodeReceive

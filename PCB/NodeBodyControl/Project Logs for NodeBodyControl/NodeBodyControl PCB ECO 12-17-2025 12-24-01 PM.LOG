@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=U1-19
+Removed Pin From Net: NetName=XNP Pin=xinhan-1
+Removed Pin From Net: NetName=XNT Pin=xinhan-3
+Change Component Designator: OldDesignator=LIMIT NewDesignator=RES
+Change Component Designator: OldDesignator=RES NewDesignator=LIMIT
+Added Pin To Net: NetName=GND Pin=U1-40
+Added Pin To Net: NetName=XNT Pin=xinhan-1
+Added Pin To Net: NetName=XNP Pin=xinhan-3
+Change Net Name : Old Net Name=LIMIT New Net Name=RES
+Change Net Name : Old Net Name=RES New Net Name=LIMIT

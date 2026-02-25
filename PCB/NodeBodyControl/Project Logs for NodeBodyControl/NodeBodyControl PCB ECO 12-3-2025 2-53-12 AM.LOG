@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=5V Pin=MCP2515-7
+Added Component: Designator=R_jump1(tro vach 1/4w)
+Added Pin To Net: NetName=5V Pin=R_jump1-2
+Added Pin To Net: NetName=NetMCP2515_7 Pin=MCP2515-7
+Added Pin To Net: NetName=NetMCP2515_7 Pin=R_jump1-1
+Added Net: Name=NetMCP2515_7
+Added Member To Class: ClassName=NodeBodyControl Member=Component R_jump1 0R

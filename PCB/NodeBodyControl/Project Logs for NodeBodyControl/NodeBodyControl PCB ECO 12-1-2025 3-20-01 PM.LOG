@@ -1,0 +1,8 @@
+Added Component: Designator=Joystick1(Joystick)
+Added Pin To Net: NetName=GND Pin=Joystick1-1
+Added Pin To Net: NetName=5V Pin=Joystick1-2
+Added Pin To Net: NetName=SPEED Pin=Joystick1-3
+Added Pin To Net: NetName=URY Pin=Joystick1-4
+Added Pin To Net: NetName=CRUISE_CONTROL Pin=Joystick1-5
+Added Member To Class: ClassName=NodeBodyControl Member=Component Joystick1 Joy
+Added Room: Name=NodeBodyControl

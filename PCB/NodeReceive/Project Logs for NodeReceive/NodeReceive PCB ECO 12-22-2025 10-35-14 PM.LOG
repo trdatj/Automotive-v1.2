@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=XNP Pin=ESP1-8
+Removed Pin From Net: NetName=XNT Pin=ESP1-10
+Added Pin To Net: NetName=XNT Pin=ESP1-8
+Added Pin To Net: NetName=XNP Pin=ESP1-10

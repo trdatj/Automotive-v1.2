@@ -1,0 +1,5 @@
+Added Component: Designator=Q1(TO254P1054X470X2600-3)
+Added Pin To Net: NetName=NetC3_1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetC5_1 Pin=Q1-3
+Added Member To Class: ClassName=Mach_nguon Member=Component Q1 LM7805CT/NOPB

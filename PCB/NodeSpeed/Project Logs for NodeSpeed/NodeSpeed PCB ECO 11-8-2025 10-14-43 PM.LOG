@@ -1,0 +1,11 @@
+Change Component Comment : Designator=J3 Old Comment=B3B-XH-A(LF)(SN) New Comment=
+Change Component Designator: OldDesignator=J3 NewDesignator=encoder1
+Added Component: Designator=J3(JST_B4B-XH-A(LF)(SN))
+Added Component: Designator=J4(JST_B3B-XH-A(LF)(SN))
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=5V Pin=J4-3
+Added Pin To Net: NetName=12V Pin=J4-1
+Added Net: Name=12V
+Added Member To Class: ClassName=NodeSpeed Member=Component J3 Power
+Added Member To Class: ClassName=NodeSpeed Member=Component J4 L298N
+Added Room: Name=NodeSpeed

@@ -1,0 +1,9 @@
+Added Component: Designator=Power 12V(JST_B2B-XH-A_(LF)(SN))
+Added Pin To Net: NetName=GND Pin=L298N-2
+Added Pin To Net: NetName=5V Pin=L298N-3
+Added Pin To Net: NetName=GND Pin=Power 12V-1
+Added Pin To Net: NetName=12V Pin=L298N-1
+Added Pin To Net: NetName=12V Pin=Power 12V-2
+Added Net: Name=12V
+Added Member To Class: ClassName=NodeSpeed Member=Component Power 12V 
+Added Room: Name=NodeSpeed

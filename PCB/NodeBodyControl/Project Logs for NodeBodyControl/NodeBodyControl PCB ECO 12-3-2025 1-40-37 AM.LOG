@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=CRUISE_CONTROL Pin=U1-11
+Removed Pin From Net: NetName=XNP Pin=U1-12
+Added Pin To Net: NetName=XNP Pin=U1-11

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=H Pin=CAN-1
+Removed Pin From Net: NetName=L Pin=CAN-2
+Added Pin To Net: NetName=L Pin=CAN-1
+Added Pin To Net: NetName=H Pin=CAN-2
+Added Member To Class: ClassName=NodeBodyControl Member=Component CAN 
+Added Member To Class: ClassName=NodeBodyControl Member=Component L2 LED 5mm
+Added Member To Class: ClassName=NodeBodyControl Member=Component MCP2515
+Added Member To Class: ClassName=NodeBodyControl Member=Component R2 1k
+Added Member To Class: ClassName=NodeBodyControl Member=Component U1 STM32F103C8T6
+Added Room: Name=NodeBodyControl

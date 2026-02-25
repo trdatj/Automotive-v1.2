@@ -1,0 +1,10 @@
+Added Component: Designator=L4(LED-3MM-GREEN)
+Added Component: Designator=R4(tro vach 1/4w)
+Added Pin To Net: NetName=GND Pin=L4-2
+Added Pin To Net: NetName=5V Pin=R4-1
+Added Pin To Net: NetName=NetL4_1 Pin=L4-1
+Added Pin To Net: NetName=NetL4_1 Pin=R4-2
+Added Net: Name=NetL4_1
+Added Member To Class: ClassName=NodeSpeed Member=Component L4 LED 3mm
+Added Member To Class: ClassName=NodeSpeed Member=Component R4 1k
+Added Room: Name=NodeSpeed

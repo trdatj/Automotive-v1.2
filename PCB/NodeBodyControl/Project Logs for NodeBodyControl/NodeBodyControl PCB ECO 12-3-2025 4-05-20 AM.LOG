@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=3V3 Pin=R9-2
+Removed Pin From Net: NetName=3V3 Pin=R_jump4-1
+Removed Pin From Net: NetName=3V3 Pin=R_jump4-2
+Removed Member From Class: ClassName=NodeBodyControl Member=R_jump4
+Added Pin To Net: NetName=JUMP Pin=R9-2
+Added Pin To Net: NetName=JUMP Pin=R_jump3-1
+Added Net: Name=JUMP

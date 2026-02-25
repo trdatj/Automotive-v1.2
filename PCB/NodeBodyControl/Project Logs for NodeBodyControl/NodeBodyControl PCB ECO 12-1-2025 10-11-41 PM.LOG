@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GAP Pin=U1-2
+Removed Pin From Net: NetName=RES Pin=U1-3
+Removed Pin From Net: NetName=DENPHA Pin=U1-13
+Added Pin To Net: NetName=RES Pin=U1-13
+Added Pin To Net: NetName=GAP Pin=U1-14
+Added Room: Name=NodeBodyControl

@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=12V Pin=H1-1
+Removed Pin From Net: NetName=GND Pin=H1-2
+Removed Pin From Net: NetName=5V Pin=H2-1
+Removed Pin From Net: NetName=GND Pin=H2-2
+Change Component Designator: OldDesignator=H2 NewDesignator=H3
+Added Component: Designator=H2(Header 2P DC 2.54)
+Added Component: Designator=H4(Header 2P DC 2.54)
+Added Component: Designator=H5(Header 2P DC 2.54)
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=12V Pin=H1-2
+Added Pin To Net: NetName=GND Pin=H2-1
+Added Pin To Net: NetName=5V Pin=H2-2
+Added Pin To Net: NetName=GND Pin=H3-1
+Added Pin To Net: NetName=5V Pin=H3-2
+Added Pin To Net: NetName=GND Pin=H4-1
+Added Pin To Net: NetName=5V Pin=H4-2
+Added Pin To Net: NetName=GND Pin=H5-1
+Added Pin To Net: NetName=5V Pin=H5-2
+Added Member To Class: ClassName=Mach_nguon Member=Component H3 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=Mach_nguon Member=Component H4 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=Mach_nguon Member=Component H5 Header 2P 2.54 Duc Cong
+Added Member To Class: ClassName=Mach_nguon Member=Component KF1 CON 2 KF301
+Added Room: Name=Mach_nguon

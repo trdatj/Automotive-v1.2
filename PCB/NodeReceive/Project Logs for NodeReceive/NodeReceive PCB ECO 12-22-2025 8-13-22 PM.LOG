@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetCOS_1 Pin=R11-2
+Added Component: Designator=L7(LED-5MM-Green)
+Added Component: Designator=R12(tro vach 1/4w)
+Added Component: Designator=R14(tro vach 1/4w)
+Added Pin To Net: NetName=GND Pin=L7-2
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=COS Pin=R11-1
+Added Pin To Net: NetName=NetCOS_1 Pin=R11-2
+Added Pin To Net: NetName=LED18B20 Pin=ESP1-11
+Added Pin To Net: NetName=LED18B20 Pin=R14-1
+Added Net: Name=LED18B20
+Added Pin To Net: NetName=NetL7_1 Pin=L7-1
+Added Pin To Net: NetName=NetL7_1 Pin=R14-2
+Added Net: Name=NetL7_1
+Added Member To Class: ClassName=NodeReceive Member=Component L7 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R14 220R

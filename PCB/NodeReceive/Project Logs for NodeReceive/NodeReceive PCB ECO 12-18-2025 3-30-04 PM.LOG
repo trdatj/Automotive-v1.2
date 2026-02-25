@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=LED_CAN2 Pin=ESP1-21
+Removed Pin From Net: NetName=LED_CAN3 Pin=ESP1-22
+Added Pin To Net: NetName=LED_CAN2 Pin=ESP1-22
+Added Member To Class: ClassName=NodeReceive Member=Component L5 LED 5mm
+Added Member To Class: ClassName=NodeReceive Member=Component R5 1k
